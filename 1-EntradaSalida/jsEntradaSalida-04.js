@@ -8,6 +8,7 @@ function mostrar()
  nombreIngresado=prompt("Please put your name here");
 
  txtIdNombre.value=nombreIngresado;
+  alert (nombreIngresado);
 	
 
 	
