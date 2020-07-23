@@ -1,15 +1,4 @@
-//Almuina - Ejercicio 8
-/*Se pide ingresar una edad y un estado cicvil
-
-
-
-	a los niños tambien informar "hagan la tarea" 
-	
-	
-
-
-
-*/
+//Almuina - Ejercicio A - (Se que puedo meter mas else, pero por ahora logre que me funcione así)
 
 function mostrar()
 {
