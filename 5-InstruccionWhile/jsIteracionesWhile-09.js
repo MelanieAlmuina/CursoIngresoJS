@@ -13,7 +13,13 @@ function mostrar()
 	respuesta='si';
 	while(respuesta=="si")
 	{
+		numeroIngresado=prompt("Ingrese un numero.");
+		numeroIngresado=parseInt(numeroIngresado);
+
 		
+
+
+
 		respuesta=prompt("desea continuar?");
 	}
 	txtIdMaximo.value=numeroMaximo;

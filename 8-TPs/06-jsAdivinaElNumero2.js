@@ -9,20 +9,29 @@
 Desde  6 Intentos hasta 10:”falta técnica”
 Más de 10 intentos: “afortunado en el amor!!”.*/
 
-var numeroSecreto; 
-var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
-	 
+	var numeroSecreto; 
+	var contadorIntentos;
+	var numeroRandom;
 	
+	numeroRandom= Math.floor(Math.random() * 100) + 1;
+	 
+	txtIdNumero.value=numeroSecreto;
+
+	while(numeroRandom!=numeroSecreto)
+	{
+		
+	}
 
 }
 
 function verificar()
 {
 	
-	
+	switch(contadorIntentos)
+	{
 
+	}
 }
